@@ -1,0 +1,15 @@
+﻿<Window x:Class="Gif_splash_screen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       
+        xmlns:local="clr-namespace:Gif_splash_screen"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="60" Width="130"  WindowStyle="None" Background="Transparent" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Top="485" Left="1000">
+
+    <Grid  Opacity="1">
+        <Image gif:ImageBehavior.AnimatedSource="C:\Users\marindv\Desktop\Icons for menu\Gif_progect.gif"  />
+    </Grid>
+</Window>
